@@ -1,15 +1,11 @@
 const args = process.argv;
 const fs = require('fs');
-const fs = require('fs-extra');
 const path = require('path');
 const https = require('https');
 const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron');
 const { exec } = require('child_process');
 const http = require('http');
-const fs = require('fs');
-const { exec } = require('child_process');
-const path = require('path');
 const unzipper = require('unzipper');
 
 
